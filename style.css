@@ -1,0 +1,39 @@
+
+
+body{
+  background-color: rgb(22, 18, 18);
+  font-family: "Bai Jamjuree" ,sans-serif;
+}
+
+.container{
+  margin: 100px auto 0 auto;
+  text-align: center;
+  border-radius: 10Px;
+  width: 350px;
+  height: 500px;
+  display: grid;
+  grid-template-rows: repeat(4,auto);
+  background-color: white;
+}
+
+.profile_image img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.edit_profile button{
+  width: 320px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: rgb(70, 68, 68);
+  color: white;
+  transition: opacity 0.15 s;
+}
+
+.edit_profile button:hover{
+  opacity: 0.5;
+}
